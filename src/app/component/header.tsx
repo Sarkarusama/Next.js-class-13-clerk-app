@@ -4,7 +4,7 @@ import { auth } from '@clerk/nextjs/server'
 import { UserButton } from '@clerk/nextjs'
 
 const Header = () => {
-    const {userId} :any = auth()
+    const userId = auth()
   return (
     <>
      <nav className="bg-slate-800 flex item-center py-6 px-6 mb-4 justify-between">
